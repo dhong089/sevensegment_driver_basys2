@@ -1,0 +1,27 @@
+
+NET "clk_50MHz" LOC = B8;
+NET "rst"       LOC = A7;
+
+# 7seg ------------------------
+NET "seg<0>"          LOC = L14; #CA
+NET "seg<1>"          LOC = H12; #CB
+NET "seg<2>"          LOC = N14; #CC
+NET "seg<3>"          LOC = N11; #CD
+NET "seg<4>"          LOC = P12; #CE
+NET "seg<5>"          LOC = L13; #CF
+NET "seg<6>"          LOC = M12; #CG
+NET "dp"              LOC = N13;
+NET "anode<0>"        LOC = F12;
+NET "anode<1>"        LOC = J12;
+NET "anode<2>"        LOC = M13;
+NET "anode<3>"        LOC = K14;
+
+# LEDS ------------------------
+#NET "led<0>"          LOC = M5;
+#NET "led<1>"          LOC = M11;
+#NET "led<2>"          LOC = P7;
+#NET "led<3>"          LOC = P6;
+#NET "led<4>"          LOC = N5;
+#NET "led<5>"          LOC = N4;
+#NET "led<6>"          LOC = P4;
+#NET "led<7>"          LOC = G1;
